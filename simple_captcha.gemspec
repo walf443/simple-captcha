@@ -3,14 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "simple_captcha/version"
 
 Gem::Specification.new do |s|
-  s.name = "simple_captcha"
+  s.name = "pludoni-simple_captcha"
   s.version = SimpleCaptcha::VERSION.dup
   s.platform = Gem::Platform::RUBY 
-  s.summary = "SimpleCaptcha is the simplest and a robust captcha plugin."
+  s.summary = "SimpleCaptcha is the simplest and a robust captcha plugin. Compatible with rails 4 rc2"
   s.description = "SimpleCaptcha is available to be used with Rails 3 or above and also it provides the backward compatibility with previous versions of Rails."
-  s.authors = ["Pavlo Galeta", "Igor Galeta"]
+  s.authors = ["Pavlo Galeta", "Igor Galeta", "Vincent Thelang"]
   s.email = "galeta.igor@gmail.com"
-  s.homepage = "http://github.com/izzm/simple-captcha"
+  s.homepage = "http://github.com/pludoni/simple-captcha"
   
   s.files = Dir["{lib}/**/*"] + ["Rakefile", "README.rdoc"]
   s.test_files = Dir["{test}/**/*"]
